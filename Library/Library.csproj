@@ -4,6 +4,10 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>InvertedTomato.ShortGuidStrings</AssemblyName>
     <RootNamespace>InvertedTomato.Encoding.ShortGuidStrings</RootNamespace>
+    <Description>Normally a GUID encoded as a string consumes 38 characters. ShortGuidString offers an alternative, encoding the GUID as a 23 character URL-safe string.</Description>
+    <Copyright>Inverted Tomato</Copyright>
+    <PackageProjectUrl>https://github.com/invertedtomato/short-guid-string</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>

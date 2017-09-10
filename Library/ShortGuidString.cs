@@ -21,6 +21,10 @@ namespace InvertedTomato.Encoding.ShortGuidStrings {
         /// Encode as a short-GUID string with a label pre-fix.
         /// </summary>
         public static string Encode(Guid input, string label) {
+            if (null == label) {
+                throw new ArgumentNullException("label", "Label cannot be null.");
+            }
+
             return label + " " + Encode(input);
         }
 
